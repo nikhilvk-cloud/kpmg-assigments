@@ -7,4 +7,4 @@ def nested_get(input_dict, nested_key):
     return internal_dict_value
 
 print(nested_get({"a":{"b":{"c":"d"}}},["a","b","c"])) #1
-print(nested_get({"a":{"bar":{"c":1}}},["a","bar","c"])) #None
+print(nested_get({"a":{"bwrong":{"c":1}}},["a","bar","c"])) #None
